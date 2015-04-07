@@ -1,0 +1,14 @@
+highlighter: pygments
+
+# 作者信息
+author:
+  name: Chewein
+  email: chewein56@gmail.com
+  link: http://chewein.github.io
+  github: http://github.com/chewein
+
+# 站点信息
+title: Chewein的博客
+description: Chewein的博客
+url: http://chewein.github.io
+language: 中文
