@@ -12,6 +12,7 @@ Jekyll就是一个博客生成系统,将博客模块化,解析组织页面之间
 
 
 ##安装Jekyll
+
 ###安装Ruby
 Jekyll使用Ruby编写的,所以要先配置Ruby环境,通过Ruby安装Jekyll。
 去[rubyinstaller](http://rubyinstaller.org/downloads/)下载相应版本安装,安装时有三个选项注意勾选将安装路径添加到环境变量。
@@ -20,6 +21,7 @@ Jekyll使用Ruby编写的,所以要先配置Ruby环境,通过Ruby安装Jekyll。
 
 如果是直接用电脑的cmd输入ruby则可能显示**no such file or directory**,原因不详！
 如果使用cygwin的终端则在.bashrc里添加下面命令才能使用ruby的各个命令。
+
 
 ```
 alias gem=’gem.bat’
@@ -40,6 +42,7 @@ DevKit是windows平台下编译和使用本地C/C++扩展包的工具,它就是�
 - 双击DevKit.exe将其解压缩,并进入解压缩文件夹;
 - 打开"start Command Prompt with Ruby",输入下面命令安装Devkit
 
+
 ```
 ruby dk.rb init
 ruby dk.rb install
@@ -48,6 +51,7 @@ ruby dk.rb install
 至此Ruby的环境安装完毕。
 
 ###安装gem
+
 [RubyGems](https://rubygems.org/pages/download)(简称gems)是一个用于对Ruby组件进行打包的Ruby打包系统,它提供一个分发Ruby程序和库的标准格式,还提供一个管理程序包安装的工具。
 RubyGems的功能类似于Linux下的apt-get,Python下的pip/easy-install等工具。
 在[RubyGems](https://rubygems.org/pages/download)上介绍了gem的安装过程:
@@ -58,6 +62,7 @@ RubyGems的功能类似于Linux下的apt-get,Python下的pip/easy-install等工�
 
 使用gem安装其他包时候可以指定源:
 
+
 ```
 gem sources list                            //查看当前源
 gem sources -a http://ruby.taobao.org/      //添加新源
@@ -65,6 +70,7 @@ gem sources --remove https://rubygems.org/  //删除旧源
 ```
 
 当使用gem安装其他包时出现下述问题
+
 
 ```
 RROR:  Error installing jekyll:
