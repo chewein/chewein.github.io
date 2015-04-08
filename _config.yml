@@ -1,14 +1,33 @@
-highlighter: pygments
+# Dependencies
+markdown:         kramdown  
+highlighter:      pygments
 
-# 作者信息
+#
+encoding:         "utf-8"
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Chewein's Blog
+tagline:          ''
+description:      '放荡不羁爱吃饭睡觉的伪码农'
+url:              https://github.com/chewein
+
 author:
-  name: Chewein
-  email: chewein56@gmail.com
-  link: http://chewein.github.io
-  github: http://github.com/chewein
+  name:           'Chewein'
+  url:            https://github.com/chewein
 
-# 站点信息
-title: Chewein的博客
-description: Chewein的博客
-url: http://chewein.github.io
-language: 中文
+paginate:         10
+
+# Custom vars
+version:          1.0.0
+
+# duoshuo
+comments :
+    provider : duoshuo
+    duoshuo :
+      short_name : soohu
+# collections
+collections:
+  mycollection:
+    output: true
