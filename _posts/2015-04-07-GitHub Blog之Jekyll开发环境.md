@@ -7,7 +7,6 @@ tag: [GitHub,博客,测试,环境]
 ---
 
 
-
 [Jekyll](http://jekyllrb.com/) is a simple,blog aware,static site generator。
 Jekyll就是一个博客生成系统,将博客模块化,解析组织页面之间联系的系统。
 
@@ -21,6 +20,7 @@ Jekyll使用Ruby编写的,所以要先配置Ruby环境,通过Ruby安装Jekyll。
 
 如果是直接用电脑的cmd输入ruby则可能显示**no such file or directory**,原因不详！
 如果使用cygwin的终端则在.bashrc里添加下面命令才能使用ruby的各个命令。
+
 ```
 alias gem=’gem.bat’
 alias rake=’rake.bat’
@@ -39,10 +39,12 @@ DevKit是windows平台下编译和使用本地C/C++扩展包的工具,它就是�
 
 - 双击DevKit.exe将其解压缩,并进入解压缩文件夹;
 - 打开"start Command Prompt with Ruby",输入下面命令安装Devkit
+
 ```
 ruby dk.rb init
 ruby dk.rb install
 ``` 
+
 至此Ruby的环境安装完毕。
 
 ###安装gem
@@ -55,6 +57,7 @@ RubyGems的功能类似于Linux下的apt-get,Python下的pip/easy-install等工�
 要查看的话可以使用命令"ruby setup.rb - -help"。
 
 使用gem安装其他包时候可以指定源:
+
 ```
 gem sources list                            //查看当前源
 gem sources -a http://ruby.taobao.org/      //添加新源
@@ -62,6 +65,7 @@ gem sources --remove https://rubygems.org/  //删除旧源
 ```
 
 当使用gem安装其他包时出现下述问题
+
 ```
 RROR:  Error installing jekyll:
 invalid gem: package is corrupt, exception while verifying: undefined method`path2class' for #<Psych::ClassLoader:0x0000010c9d0be0> (NoMethodError) in /Users/ryan/.rvm/gems/ruby-2.0.0-p353/cache/i18n-0.6.9
@@ -84,6 +88,7 @@ jekyll –server
 
 
 ------------------------------------
+
 ## ISSUE
 
 - jekyll –server时出现cannot load such file -- hitimes
