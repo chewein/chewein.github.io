@@ -1,5 +1,6 @@
 # Dependencies
 markdown:         rdiscount
+#markdown:         redcarpet
 highlighter:      pygments
 
 #
@@ -23,10 +24,11 @@ paginate:         10
 version:          1.0.0
 
 # duoshuo
-comments :
-    provider : duoshuo
-    duoshuo :
-      short_name : soohu
+comments:
+  provider:          chewein
+  duoshuo:
+    short_name:          chewein
+  
 # collections
 collections:
   mycollection:
