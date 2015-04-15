@@ -28,7 +28,7 @@ tag: [CSS,绝对,相对]
 </div>
 ```
 
-![](/public/img/tech/2015_04_15_CSS_absolute_relative/1.png)
+![](/public/img/tech/2015_04_15_CSS_absolute_relative/1.PNG)
 
 
 ## 相对定位
@@ -47,7 +47,7 @@ tag: [CSS,绝对,相对]
 }
 ```
 
-![](/public/img/tech/2015_04_15_CSS_absolute_relative/2.png)
+![](/public/img/tech/2015_04_15_CSS_absolute_relative/2.PNG)
 
 
 空间变化：
@@ -73,7 +73,7 @@ tag: [CSS,绝对,相对]
 	margin-left:40px;
 }
 ```
-![](/public/img/tech/2015_04_15_CSS_absolute_relative/3.png)
+![](/public/img/tech/2015_04_15_CSS_absolute_relative/3.PNG)
 
 这种情况可以这里理解：
 
@@ -101,7 +101,7 @@ tag: [CSS,绝对,相对]
 </div
 ```
 
-![](/public/img/tech/2015_04_15_CSS_absolute_relative/4.png)
+![](/public/img/tech/2015_04_15_CSS_absolute_relative/4.PNG)
 
 
 ### 浏览器窗口为基准
@@ -115,7 +115,7 @@ tag: [CSS,绝对,相对]
 	left:40px;
 }
 ```
-![](/public/img/tech/2015_04_15_CSS_absolute_relative/5.png)
+![](/public/img/tech/2015_04_15_CSS_absolute_relative/5.PNG)
 
 由于只对box2施加绝对定位，没有对其父辈box-warp，box，body施加定位设置，因此box2以浏览器窗口为基准进行偏移。
 
@@ -128,7 +128,7 @@ tag: [CSS,绝对,相对]
 	position:relative
 }
 ```
-![](/public/img/tech/2015_04_15_CSS_absolute_relative/6.png)
+![](/public/img/tech/2015_04_15_CSS_absolute_relative/6.PNG)
 
 
 
