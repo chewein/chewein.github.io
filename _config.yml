@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         rdiscount
-#markdown:         redcarpet
+#markdown:         rdiscount
+markdown:         redcarpet
 highlighter:      pygments
 
 #
